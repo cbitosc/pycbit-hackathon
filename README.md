@@ -41,9 +41,9 @@ For example, 3^2^ + 4^2^ = 9 + 16 = 25 = 5^2^.
 There exists exactly one Pythagorean triplet for which a + b + c = 1000.
 Find the product abc.
 
-5. 2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder. 
+5. 2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder. Write a program to find the smallest number that can be divided by all the numbers from 1 to 20 without leaving a remainder.
 
-6. Write a program to find the smallest number that can be divided by all the numbers from 1 to 20 without leaving a remainder.
+6. Print all the prime numbers betwenn 1 and 99999
 
 7. Ask the user for a string and print out whether this string is a palindrome or not.
 A palindrome is a string that reads the same forwards and backwards.
