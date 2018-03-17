@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+	int sum=0;
+	for(int i=0;i<500;i++)
+	{
+		if(i%5==0&&i%7!=0)
+		{
+		
+		 sum=sum+i;
+	}
+	}
+	cout<<"sum is";
+	cout<<sum;
+	return 0;
+}
