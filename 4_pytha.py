@@ -1,9 +1,14 @@
-for a in range(0,1000):
-	for b in range(0,1000):
-		for c in range(0,1000):
-			if a**2 + b**2==c**2 and a+b+c==1000:
-				if a<b<c:
-					print a*b*c
-					exit()
-			
+def pytha(a, b, c):
+    return (a**2) + (b**2) == (c**2)
+
+sum = 1000
+
+for i in range(1, sum):
+    for j in range(i+1, sum):
+        c = sum - (i + j)
+        if(pytha(i, j, c)):
+            if i + j + c == sum:
+                print i * j * c
+                break
+
 				
