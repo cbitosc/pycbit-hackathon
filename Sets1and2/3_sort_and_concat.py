@@ -5,10 +5,24 @@ list2 = b.split(",")
 
 def sort_concat(list1, list2):
 	'''
-	takes two lists, sorts and concatenates them to return a new list
+	assuming the question is to
+	take two lists, sort the first list and concatenate these values index wise to the values from second list
+	'''
+	list1.sort()
+	for i in range(len(list2)):
+		#print(list1[i])
+		list1[i] = list1[i] + " " +  list2[i]
+		
+	
+
+
+sort_concat(list1, list2)
+print(list1)
+
+def sort1_concat(list1, list2):
+	'''
+	if the question is to sort the lists and simply concatenate them
 	'''
 	return(sorted(list1) + sorted(list2))
 
-new_list = sort_concat(list1, list2)
-print(new_list)
 
