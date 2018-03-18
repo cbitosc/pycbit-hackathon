@@ -1,22 +1,32 @@
 # PyCBIT - Hackathon.init() - March 2018
 
 ## Rules for submitting
+
 1. To submit your code fork the repo to your profile, push the code and then put up a pull request.
 2. Completion of either one set fully or two questions from each set will be the minimum requirement for qualification.
 3. All the submissions after 11:59PM March 18th will not be considered.
 4. The file name should start with the question number followed by "_" and the desired name.(example : 1_sum_57, 2_room_percent_increase) 
 
 ## Set 1
+
 1. Print the sum of numbers less than 500 which are divisible by 5 and not divisible by 7
 2. Consider a room with dimension  6X8X10, Write a program to compute the area of the room if the dimensions are increased by 15 percent.
 3. Sort the given words alphabetically and concat them with the second set.
+
+
 List Items 1
+
+
 * Ron 
 * Hermione
 * Harry
 * Professor
 * Dobby
+
+
 List Items 2
+
+
 * The House Elf
 * Potter
 * Granger
