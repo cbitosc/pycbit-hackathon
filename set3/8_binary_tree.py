@@ -41,10 +41,23 @@ root+a#a is added as left child of root
 root+b#b is added as right child of root
 b + c#c is added as the left child of b
 
+'''Tree is now
+      1
+     /  \
+    2    3
+   /
+  4
+'''
 
 root.printTree(root)
 
 b-c#c is removed as the left child of b
+
+'''Tree is now
+      1
+     /  \
+    2    3
+'''
 
 root.printTree(root)
 
