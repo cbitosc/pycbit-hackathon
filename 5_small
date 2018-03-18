@@ -1,0 +1,12 @@
+def gcd(x,y):
+    while y:
+        x,y=y,x%y
+    return x
+
+def lcm(x,y):
+    return (x*y)//gcd(x,y)
+
+m=1
+for i in range(2,21):
+    m=lcm(m,i)
+print(m)
