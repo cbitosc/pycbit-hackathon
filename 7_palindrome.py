@@ -1,7 +1,6 @@
 def check_palindrome():
 	var = input("Enter a string to check whether its a palindrome or not: ")
 	length = len(var)
-	flag = 0
 	low = 0
 	high = length-1
 	while(low < high):
