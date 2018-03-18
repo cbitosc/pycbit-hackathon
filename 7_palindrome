@@ -1,0 +1,6 @@
+string1=input('enter the string\n'); #asking user for input 
+string2=string1[::-1]; #reversing the string
+if(string1==string2):  #checking if they're equal
+	print('entered string is palindrome'); 
+else:
+	print('entered string is not a palindrome');
