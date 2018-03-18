@@ -1,0 +1,4 @@
+set1=["Ron","Hermione","Harry","Professor","Dobby"];
+set2=["The House Elf","Potter","Granger","Lockhart","Weasley"];
+set1.sort();
+print (set2+set1);
