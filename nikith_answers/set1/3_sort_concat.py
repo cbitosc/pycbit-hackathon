@@ -1,5 +1,6 @@
-list1 = ['Ron','Hermione','Harry','Professor','Dobby','List Items 2','The House Elf','Potter','Granger','Lockhart','Weasley']
-list2 = ['Potter','Fred','Greg','George','Voldemort','Sirius','Dumbledore']
+list1 = ['Ron','Hermione','Harry','Professor','Dobby']
+list2 = ['The House Elf','Potter','Granger','Lockhart','Weasley']
+list3 = ['Potter','Fred','Greg','George','Voldemort','Sirius','Dumbledore']
 
 print('')
 print("The first list is:\n",list1)
