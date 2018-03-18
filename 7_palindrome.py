@@ -10,6 +10,6 @@ def isPalindrome(str):
             return False
 x=input("enter a string : ")
 if isPalindrome(x):
-    print("It is a Palindrome Number")
+    print("It is a Palindrome string")
 else:
-    print("It is not a palindrome number")
+    print("It is not a palindrome string")
