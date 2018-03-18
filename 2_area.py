@@ -1,4 +1,5 @@
-area=6*8*10
-per=15
-newarea=area*((1+per/100)**3)
-print( newarea)
+l=6
+b=8
+h=10
+a=l*b*(1.15)**2
+print(a)
