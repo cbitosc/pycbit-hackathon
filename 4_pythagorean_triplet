@@ -1,12 +1,7 @@
-def gcd(x,y):
-    while y:
-        x,y=y,x%y
-    return x
-
-def lcm(x,y):
-    return (x*y)//gcd(x,y)
-
-m=1
-for i in range(2,21):
-    m=lcm(m,i)
-print(m)
+for x in range(1,1000):
+   for y in range(x+1,1000):
+       z=1000-(x+y)
+       if(x**2)+(y**2)==(z**2):
+           if x+y+z==1000:
+               print(x*y*z)
+               break
