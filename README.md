@@ -16,21 +16,13 @@ List Items 1
 * Harry
 * Professor
 * Dobby
-* List Items 2
+List Items 2
 * The House Elf
 * Potter
 * Granger
 * Lockhart
 * Weasley
 
-List Items 2
-* Potter
-* Fred
-* Greg
-* George
-* Voldemort
-* Sirius 
-* Dumbledore
 
 ## Set 2
 
@@ -47,3 +39,7 @@ Find the product abc.
 
 7. Ask the user for a string and print out whether this string is a palindrome or not.
 A palindrome is a string that reads the same forwards and backwards.
+
+## Set 3
+
+8. Create a binary tree class. Overload the ‘+’ operator to behave as an node insertion, ‘-‘ operator to behave as a node deletion. This should be strictly written in Python. 
