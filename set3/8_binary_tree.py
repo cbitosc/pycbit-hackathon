@@ -5,7 +5,7 @@ class BinaryTreeNode:
 		self.nodes = [self.value]
 
 	def __add__(self, other):
-		#Nodes are added to the end of the tree as in CBT
+		#Nodes are added to the end of the tree as in CompleteBinaryTree
 		self.nodes.append(other.value)
 		#print("Node added at the end of the tree")
 
