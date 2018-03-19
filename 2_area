@@ -1,0 +1,6 @@
+l,b,h=6,8,10
+l=(l*1.15)
+b=(b*1.15)
+h=(h*1.15)
+surface_area=2*(l*b+b*h+l*h)
+print(surface_area)

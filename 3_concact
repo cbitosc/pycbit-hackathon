@@ -1,0 +1,4 @@
+l1=['Ron','Hermione','Harry','Professor','Dobby','List Items 2','The House Elf','Potter','Granger','Lockhart','Weasley']
+l2=['Potter','Fred','Greg','George','Voldemort','Sirius','Dumbledore']
+l3=sorted(l1)
+print(l2+l3)
